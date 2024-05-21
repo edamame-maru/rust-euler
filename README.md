@@ -14,18 +14,21 @@ $ ./<executable name>
 ```
 For example, in the project ```hello-world```, ```main.rs``` compiled with ```rustc``` (managed by cargo) will output a file called ```hello-world``` which is the executable. These are already included in the repository. You would then:
 
+<pre>
 ```
 $ cd ./path/to/rust-euler/euler1/
 $ ls
-Cargo.lock Cargo.toml src **target**
+Cargo.lock Cargo.toml src <b>target</b>
 $ cd ./target/
 $ ls
-CACHEDIR.TAG **debug**
+CACHEDIR.TAG <b>debug</b>
 $ cd ./debug/
 $ ls
-build deps examples **hello-world** hello-world.d incremental
+build deps examples <b>hello-world</b> hello-world.d incremental
 $ ./hello-world
 ```
+</pre>
+
 to run the code. Alternatively, if you know how to, ```cargo run``` should do the job if you clone and setup the repository correctly.
 Note the space is included at the start of the command.
 
