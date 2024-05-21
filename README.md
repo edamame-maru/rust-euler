@@ -12,6 +12,15 @@ Welcome to rust-euler!
 ```
 $ ./<executable name>
 ```
+For example, ```euler1.rs``` compiled with ```rustc``` will output a file called ```euler1``` which is the executable. These are already included in the repository. You would then:
+
+```
+$ cd ./path/to/rust-euler/euler1/
+$ ls
+euler1 euler1.rs
+$  ./euler1
+
 
 Note the space is included at the start of the command.
-## roadmap
+
+## Roadmap
