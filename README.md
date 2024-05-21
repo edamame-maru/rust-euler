@@ -4,6 +4,41 @@ Welcome to rust-euler!
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/edamame-maru/rust-euler)
 ![GitHub last commit](https://img.shields.io/github/last-commit/edamame-maru/rust-euler)
 
+## Project layout
+<pre>.
+├── <font color="#12488B"><b>hello-world</b></font>
+│   ├── Cargo.lock
+│   ├── Cargo.toml
+│   ├── <font color="#12488B"><b>src</b></font>
+│   │   └── main.rs
+│   └── <font color="#12488B"><b>target</b></font>
+│       ├── CACHEDIR.TAG
+│       └── <font color="#12488B"><b>debug</b></font>
+│           ├── <font color="#12488B"><b>build</b></font>
+│           ├── <font color="#12488B"><b>deps</b></font>
+│           │   ├── <font color="#26A269"><b>hello_world-99ed12927bc23265</b></font>
+│           │   └── hello_world-99ed12927bc23265.d
+│           ├── <font color="#12488B"><b>examples</b></font>
+│           ├── <font color="#26A269"><b>hello-world</b></font>
+│           ├── hello-world.d
+│           └── <font color="#12488B"><b>incremental</b></font>
+│               └── <font color="#12488B"><b>hello_world-356t5tm55t73o</b></font>
+│                   ├── <font color="#12488B"><b>s-gwdpsicqq0-7i3zl2-224kkz2zegjy1l2z5c6uqy6yz</b></font>
+│                   │   ├── 1f68qjuhijjmc5i7.o
+│                   │   ├── 3sbtbb5h8ru55pik.o
+│                   │   ├── 3wqjr936igavuvx1.o
+│                   │   ├── 3xa1dh1eeps7pkl3.o
+│                   │   ├── 4rwjz7g0puotc3i.o
+│                   │   ├── 541blf7fzejf93ta.o
+│                   │   ├── dep-graph.bin
+│                   │   ├── query-cache.bin
+│                   │   └── work-products.bin
+│                   └── s-gwdpsicqq0-7i3zl2.lock
+└── README.md
+</pre>
+
+
+
 ## Execution/Testing
 
 1. Download the zip file or clone this repository.
@@ -32,4 +67,3 @@ $ ./hello-world
 to run the code. Alternatively, if you know how to, ```cargo run``` should do the job if you clone and setup the repository correctly.
 Note the space is included at the start of the command.
 
-## Roadmap
