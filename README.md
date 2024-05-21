@@ -3,6 +3,8 @@ Welcome to rust-euler!
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/edamame-maru/rust-euler)
 ![GitHub last commit](https://img.shields.io/github/last-commit/edamame-maru/rust-euler)
+![GitHub Repo stars](https://img.shields.io/github/stars/edamame-maru/rust-euler)
+
 
 ## Project layout
 <pre>.
