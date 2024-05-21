@@ -17,13 +17,13 @@ For example, in the project ```hello-world```, ```main.rs``` compiled with ```ru
 ```
 $ cd ./path/to/rust-euler/euler1/
 $ ls
-Cargo.lock Cargo.toml src *target*
+Cargo.lock Cargo.toml src **target**
 $ cd ./target/
 $ ls
-CACHEDIR.TAG *debug*
+CACHEDIR.TAG **debug**
 $ cd ./debug/
 $ ls
-build deps examples *hello-world* hello-world.d incremental
+build deps examples **hello-world** hello-world.d incremental
 $ ./hello-world
 ```
 to run the code. Alternatively, if you know how to, ```cargo run``` should do the job if you clone and setup the repository correctly.
