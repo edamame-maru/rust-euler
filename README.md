@@ -19,7 +19,7 @@ $ cd ./path/to/rust-euler/euler1/
 $ ls
 euler1 euler1.rs
 $  ./euler1
-
+```
 
 Note the space is included at the start of the command.
 
