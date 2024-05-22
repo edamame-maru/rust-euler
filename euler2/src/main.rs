@@ -1,9 +1,9 @@
 fn main() {
-    let limit = 4000000;
-    let mut sum = 0;
+    let limit: i32 = 4000000;
+    let mut sum: i32 = 0;
 
-    let a = 1;
-    let b = 1;
+    let mut a: i32 = 1;
+    let mut b: i32 = 1;
 
     while b < limit {
         if b % 2 == 0 {
@@ -11,9 +11,9 @@ fn main() {
         }
     }
 
-    let mut c = a + b;
+    let c: i32 = a + b;
     a = b;
     b = c;
 
-    println!("{sum}");
+    println!("{}", sum);
 }
