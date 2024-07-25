@@ -5,10 +5,6 @@ Welcome to rust-euler!
 ![GitHub last commit](https://img.shields.io/github/last-commit/edamame-maru/rust-euler)
 ![GitHub Repo stars](https://img.shields.io/github/stars/edamame-maru/rust-euler)
 
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
-
 ## Project layout
 <pre>.
 ├── <font color="#12488B"><b>hello-world</b></font>
