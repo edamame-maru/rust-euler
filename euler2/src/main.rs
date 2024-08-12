@@ -1,19 +1,22 @@
-fn main() {
-    let limit: i32 = 4000000;
-    let mut sum: i32 = 0;
+fn sum_even_fibonacci(limit: u32) -> u32 {
+    let mut sum = 0;
+    let mut a = 1;
+    let mut b = 2;
 
-    let mut a: i32 = 1;
-    let mut b: i32 = 1;
-
-    while b < limit {
+    while b <= limit {
         if b % 2 == 0 {
             sum += b;
         }
+        let next = a + b;
+        a = b;
+        b = next;
     }
 
-    let c: i32 = a + b;
-    a = b;
-    b = c;
+    sum
+}
 
-    println!("{}", sum);
+fn main() {
+    let limit = 4_000_000;
+    let result = sum_even_fibonacci(limit);
+    println!("{}", result);
 }

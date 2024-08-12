@@ -1,11 +1,15 @@
-fn main() {
+fn sum_of_multiples(limit: u32) -> u32 {
     let mut sum = 0;
-    
-    for i in 1..1000 {
-        if i % 3 == 0 || i % 5 == 0 {
-            sum += i;
+    for n in 1..limit {
+        if n % 3 == 0 || n % 5 == 0 {
+            sum += n;
         }
     }
-    
-    println!("{}", sum);
+    sum
+}
+
+fn main() {
+    let limit = 1000;
+    let result = sum_of_multiples(limit);
+    println!("{}", result);
 }
