@@ -19,6 +19,6 @@ fn find(mut n: u64) -> u64 {
 
 fn main() {
     const number: u64 = 600851475143;
-    let largest_factor = find(number);
-    println!("{}", largest_factor);
+    let result = find(number);
+    println!("{}", result);
 }
